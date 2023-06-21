@@ -1,0 +1,56 @@
+/*Adding font-face*/
+@font-face {
+  font-family: "Nunito-sans";
+  src: url("./fonts/NunitoSans_7pt_SemiCondensed-Medium.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Nunito-sans";
+  src: url("./fonts/NunitoSans_7pt-ExtraBold.ttf") format("truetype");
+  font-weight: 900;
+  font-style: bolder;
+}
+/*Reseting margins & using font*/
+html,
+body {
+margin: 0px;
+width: 100%;
+height: 100%;
+font-family: 'Nunito-sans',sans-serif;
+background-color: #d5e1ef;
+}
+.wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.qr-body{
+  background-color: white;
+  border-radius: 14px;
+  width: 256px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+}
+.qr-image{
+  width: 256px;
+  border-radius: 8px;
+}
+.upper-paragraph{
+  font-weight: 900;
+  font-size: 16px;
+  text-align: center;
+  color: #0f1c35;
+  letter-spacing: -0.5px;
+}
+.lower-paragraph{
+  font-size: 12px;
+  text-align: center;
+  color: #8e9094;
+  letter-spacing: -0.5px;
+}
